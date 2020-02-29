@@ -1,0 +1,154 @@
+#body 
+	{
+		margin: 0;
+		padding: 0;
+	}
+#logo
+	{
+		background-color: red;
+		width: 100%;
+		height: 15%;
+	}
+#lewy
+	{
+		background-color: pink;
+		width: 15%;
+		height: 80%;
+		float: left;
+	}
+#prawy
+	{
+		background-color: darkred;
+		width: 85%;
+		height: 80%;
+		float: right;
+	}
+#stopka
+	{
+		background-color: red;
+		width: 100%;
+		height: 5%;
+		clear: both;
+	}
+#rejestracja
+	{
+		width: 333;
+		height: 1333;
+		overflow: hidden;
+	}
+#ciemno
+	{
+		
+		width: 100%;
+		height: 100%;
+	}
+#przycisk
+	{
+		width: 15%;
+		height: 15%;
+		position: absolute;
+		right: 5%;
+		top: 5%;
+	}
+.false
+	{
+		content: url("false.png");
+	}
+.czarny
+	{
+		background-color: rgba(0,0,0,0.8);
+	}
+#a1
+	{
+		position: absolute;
+		left: 100;
+		top: 100;
+		width: 50;
+		height: 50;
+		
+		border: solid black 1px;
+	}
+#a2
+	{
+		position: absolute;
+		left: 150;
+		top: 100;
+		width: 50;
+		height: 50;
+		background-color: white;
+		border: solid black 1px;
+	}
+#a3
+	{
+		position: absolute;
+		left: 200;
+		top: 100;
+		width: 50;
+		height: 50;
+		background-color: white;
+		border: solid black 1px;
+	}
+#a4
+	{
+		position: absolute;
+		left: 100;
+		top: 150;
+		width: 50;
+		height: 50;
+		background-color: white;
+		border: solid black 1px;
+	}
+#a5
+	{
+		position: absolute;
+		left: 150;
+		top: 150;
+		width: 50;
+		height: 50;
+		background-color: white;
+		border: solid black 1px;	
+	}
+#a6
+	{
+		position: absolute;
+		left: 200;
+		top: 150;
+		width: 50;
+		height: 50;
+		background-color: white;
+		border: solid black 1px;
+	}
+#a7
+	{
+		position: absolute;
+		left: 100;
+		top: 200;
+		width: 50;
+		height: 50;
+		background-color: white;
+		border: solid black 1px;
+	}
+#a8
+	{
+		position: absolute;
+		left: 150;
+		top: 200;
+		width: 50;
+		height: 50;
+		background-color: white;
+		border: solid black 1px;
+	}
+#a9
+	{
+		position: absolute;
+		left: 200;
+		top: 200;
+		width: 50;
+		height: 50;
+		background-color: white;
+		border: solid black 1px;
+	}
+.kolor2
+	{
+		content: url("czarny.png");
+	}
