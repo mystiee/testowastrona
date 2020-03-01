@@ -127,7 +127,7 @@ function Wllacznik()
 	
 function Paint1() 
 	{
-		document.getElementById('a1').classList.toggle("kolor2");
+		document.getElementById('a1').classList.toggle("kolor1");
 	}
 function Paint2() 
 	{
@@ -135,30 +135,30 @@ function Paint2()
 	}
 function Paint3() 
 	{
-		document.getElementById('a3').classList.toggle("kolor2");
+		document.getElementById('a3').classList.toggle("kolor3");
 	}
 function Paint4() 
 	{
-		document.getElementById('a4').classList.toggle("kolor2");
+		document.getElementById('a4').classList.toggle("kolor4");
 	}
 function Paint5() 
 	{
-		document.getElementById('a5').classList.toggle("kolor2");
+		document.getElementById('a5').classList.toggle("kolor5");
 	}
 function Paint6() 
 	{
-		document.getElementById('a6').classList.toggle("kolor2");
+		document.getElementById('a6').classList.toggle("kolor6");
 	}
 function Paint7() 
 	{
-		document.getElementById('a7').classList.toggle("kolor2");
+		document.getElementById('a7').classList.toggle("kolor7");
 	}
 function Paint8() 
 	{
-		document.getElementById('a8').classList.toggle("kolor2");
+		document.getElementById('a8').classList.toggle("kolor8");
 	}
 function Paint9() 
 	{
-		document.getElementById('a9').classList.toggle("kolor2");
+		document.getElementById('a9').classList.toggle("kolor9");
 	}
 
