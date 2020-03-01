@@ -14,6 +14,10 @@ function link4()
 	{
 		document.getElementById("prawy").innerHTML='<object width="100%" height="100%" type="text/html" data="podstr4.html" ></object>';
 	}
+function link5() 
+	{
+		document.getElementById("prawy").innerHTML='<object width="100%" height="100%" type="text/html" data="podstr5.html" ></object>';
+	}
 
 
 function ZmianaKursora() 
@@ -71,6 +75,7 @@ function Kalkulator()
 		}
 	}
 
+
 function Rejestracja() 
 	{
 		var imie = document.forms[0].elements[0].value;
@@ -98,6 +103,7 @@ function Rejestracja()
 		document.getElementById("okno").innerHTML = "Masz na imię <b><i>"+imie+"</i></b> na nazwisko <b><i>"+nazwisko+"</i></b><br><br>Zrobiłeś konto na login <b><i>"+login+"</i></b> z hasłem <b><i>"+haslo;
 	}
 
+
 function PokazHaslo() 
 	{
 		var x = document.getElementById("haslo");
@@ -111,11 +117,13 @@ function PokazHaslo()
 			}
 	}
 
+
 function Wllacznik() 
 	{
 		document.getElementById('ciemno').classList.toggle("czarny");
 		document.getElementById('przycisk').classList.toggle("false");
 	}
+	
 	
 function Paint1() 
 	{
