@@ -148,7 +148,39 @@
 		background-color: white;
 		border: solid black 1px;
 	}
+.kolor1
+	{
+		content: url("k1.png");
+	}
 .kolor2
 	{
-		content: url("czarny.png");
+		content: url("k2.png");
+	}
+.kolor3
+	{
+		content: url("k3.png");
+	}
+.kolor4
+	{
+		content: url("k4.png");
+	}
+.kolor5
+	{
+		content: url("k5.png");
+	}
+.kolor6
+	{
+		content: url("k6.png");
+	}
+.kolor7
+	{
+		content: url("k7.png");
+	}
+.kolor8
+	{
+		content: url("k8.png");
+	}
+.kolor9
+	{
+		content: url("k9.png");
 	}
