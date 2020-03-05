@@ -162,3 +162,25 @@ function Paint9()
 		document.getElementById('a9').classList.toggle("kolor9");
 	}
 
+function Reset()
+	{
+		document.getElementById("niebieski").style.cursor = "wait";
+		document.getElementById("zielony").style.cursor = "wait";
+		document.getElementById("czerwony").style.cursor = "wait";
+		document.body.style.backgroundColor = "silver";
+	}
+function Kursoristrona1() 
+	{
+		document.getElementById("niebieski").style.cursor = "url(cursor1.png),auto";
+		document.body.style.backgroundColor = "lightblue";
+	}
+function Kursoristrona2() 
+	{
+		document.getElementById("zielony").style.cursor = "url(cursor2.png),auto";
+		document.body.style.backgroundColor = "lightgreen";
+	}
+function Kursoristrona3() 
+	{
+		document.getElementById("czerwony").style.cursor = "url(cursor3.png),auto";
+		document.body.style.backgroundColor = "#ff8080";
+	}
