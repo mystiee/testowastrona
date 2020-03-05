@@ -5,30 +5,43 @@
 	}
 #logo
 	{
-		background-color: red;
+		background-color: #676767;
 		width: 100%;
 		height: 15%;
 	}
 #lewy
 	{
-		background-color: pink;
+		background-color: grey;
 		width: 15%;
 		height: 80%;
 		float: left;
 	}
 #prawy
 	{
-		background-color: darkred;
+		background-color: silver;
 		width: 85%;
 		height: 80%;
 		float: right;
 	}
 #stopka
 	{
-		background-color: red;
+		background-color: #676767;
 		width: 100%;
 		height: 5%;
 		clear: both;
+	}
+:link 
+	{
+		color: silver;
+		text-decoration: none;
+	}
+:visited 
+	{
+		color: silver;
+	}
+:hover 
+	{
+		color: black;
 	}
 #rejestracja
 	{
@@ -56,7 +69,7 @@
 	}
 .czarny
 	{
-		background-color: rgba(0,0,0,0.8);
+		background-color: rgba(0,0,0,0.9);
 	}
 #a1
 	{
@@ -183,4 +196,25 @@
 .kolor9
 	{
 		content: url("k9.png");
+	}
+#niebieski
+	{
+		width: 100;
+		height: 100;
+		background-color: blue;
+		margin: 10;
+	}
+#zielony
+	{
+		width: 100;
+		height: 100;
+		background-color: green;
+		margin: 10;
+	}
+#czerwony
+	{
+		width: 100;
+		height: 100;
+		background-color: red;
+		margin: 10;
 	}
