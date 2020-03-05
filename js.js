@@ -18,7 +18,10 @@ function link5()
 	{
 		document.getElementById("prawy").innerHTML='<object width="100%" height="100%" type="text/html" data="podstr5.html" ></object>';
 	}
-
+function link6() 
+	{
+		document.getElementById("prawy").innerHTML='<object width="100%" height="100%" type="text/html" data="podstr6.html" ></object>';
+	}
 
 function ZmianaKursora() 
 	{
@@ -183,4 +186,50 @@ function Kursoristrona3()
 	{
 		document.getElementById("czerwony").style.cursor = "url(cursor3.png),auto";
 		document.body.style.backgroundColor = "#ff8080";
+	}
+	
+	
+	
+var m=0
+var b
+var n
+document.getElementById("portfel").innerHTML = ""+m+""	
+function Panda1()
+	{
+		n=1
+		b=m+n
+		document.getElementById("portfel").innerHTML = ""+b+""	
+		m=b
+	}
+function Panda10()
+	{
+		n=10
+		b=m+n
+		document.getElementById("portfel").innerHTML = ""+b+""
+		m=b
+	}
+function Panda100()
+	{
+		n=100
+		b=m+n
+		document.getElementById("portfel").innerHTML = ""+b+""	
+		m=b
+	}
+function Pandak()
+	{
+		var r = confirm ("Czy na pewno chcesz kupić pandę ?")
+		if (r == true)
+		{
+			if (b >= 499)
+			{
+				alert ("Panda należy teraz do ciebie <3")
+			} else
+				{
+				  alert ("Nie masz wystarczającej ilości monet aby kupić pandę!")
+				}
+			
+		} else
+		{
+			alert ("Panda jest smutna ;c")
+		}
 	}
